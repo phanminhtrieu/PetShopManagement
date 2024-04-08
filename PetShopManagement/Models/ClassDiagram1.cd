@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PetShopManagement.PetShop">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\PetShop.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PetShopManagement.Person" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACBAgAAgAIAAAAAAAAIAAAAiAAAAKAAAAAg=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Employee">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAgAAAAIAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Customer">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Offerings">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAgAAAAIAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Offerings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Product">
+    <Position X="15" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="PetShopManagement.Offerings" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="5.953" />
+        <Point X="12.5" Y="6.379" />
+        <Point X="15.75" Y="6.379" />
+        <Point X="15.75" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAIAAAACAAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Play">
+    <Position X="7" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Play.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Pamper">
+    <Position X="8.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pamper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Grooming">
+    <Position X="10.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Grooming.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Accessories">
+    <Position X="12.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Accessories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Foods">
+    <Position X="14.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Foods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Clothes">
+    <Position X="16" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Clothes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Pet">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAIggAAAIIAAACAAEAAhAQEAAQABAAAAEAA=</HashCode>
+      <FileName>Models\Pet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Crate" Collapsed="true">
+    <Position X="1.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAMAAAAgAAAAIAAAAAAAAAAAQAABAAAAAAAAAA=</HashCode>
+      <FileName>Models\Crate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Manager">
+    <Position X="2" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Staff">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Service" Collapsed="true">
+    <Position X="8.75" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="PetShopManagement.Offerings" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="5.953" />
+        <Point X="12.5" Y="6.596" />
+        <Point X="10.25" Y="6.596" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAA=</HashCode>
+      <FileName>Models\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Medicine">
+    <Position X="17.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Medicine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Bill">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAEAAAAgAAAAIAAAAAAAAQAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>Models\Bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Bill_Service">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIAAAACAAAQEAAAABAAAAAAA=</HashCode>
+      <FileName>Models\Bill_Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Bill_Product">
+    <Position X="22.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bill_Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Bill_Service_Details" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAABAAgAAQAIAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bill_Service_Details.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PetShopManagement.Bill_Product_Details" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABAAABAAgAAQAIAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bill_Product_Details.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
